@@ -1,0 +1,10 @@
+{
+    "author": "Jimin Lee",
+    "version": "1.0.0",
+    "name": "user-profile-builder",
+    "dependencies": {},
+    "scripts": {
+        "start": "live-server --port=8080 --entry-file=index.html"
+    },
+    "homepage": "https://jumonlala.github.io/user-profile-builder/"
+}
