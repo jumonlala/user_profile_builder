@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    color: black;
+    font-family: 'Manrope', Tahoma, sans-serif;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+#nav{
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#nav h1 {
+    font-size: 2rem;
+    padding-right: 2rem;
+}
+
+#nav span {
+    font-size: 2rem;
+    padding-right: 2rem;
+}
+
+#nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.8rem;
+}
+
+#nav a:hover {
+    background-image: linear-gradient(to right, #b6f0f2, #f4d3e0);
+}
+
+#main{   
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    padding: 0.5rem 12rem;
+}
+
+#video {
+    position: absolute;
+}
+
+#footer{
+    background-color: white;
+    width: 100vw;
+    text-align: center; 
+    position: fixed;
+    bottom: 0; 
+    padding: 2rem;
+}
+
+/* #welcome{
+    background-image: linear-gradient(to right, #b6f0f2, #f4d3e0);
+    padding: 7rem;
+    font-family: 'Monaco', 'Arial', sans-serif;
+    font-size: 130px;
+    font-style: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#welcome-text:hover{
+    padding: 20px 0px;
+    background-color: #ffffff;
+} */

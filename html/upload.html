@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ExplainTiktok</title>
+    <link rel="stylesheet" href="./css/upload.css">
+</head>
+<body>
+    <div id="nav">
+        <h1 id="title">ExplainTiktok</h1>
+        <p>Upload Tiktok Video URL</p>
+        <span></span>
+        <a href="https://www.tiktok.com/foryou?lang=en" target="_blank" id="browse">Browse Tiktok</a>
+    </div>
+    <div id="main">
+        <div id="insert"></div>
+        <div id="input-container">
+            <input id="url" type="text" 
+                placeholder="https://www.tiktok.com/@user/video/id"
+                inputmode="url"
+                autofocus="on" autocapitalize="on" />
+        </div>
+        <div id="button-container">
+            <button id="clear" onclick="clearInput()">CLEAR</button>
+            <button id="submit" onclick="submitUrl()">SUBMIT</button>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script src="./script/upload.js"></script>
+</body>
+</html>
