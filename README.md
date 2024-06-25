@@ -2,15 +2,16 @@
 
 For submission to 2024 Tiktok Tech Jam 
 
-oembed API (Tiktok embed)
+<API>
+* oembed API (Tiktok embed)
 
-/**
- * JS tiktok downloader
- * @version 1.0.0
- * @author  Abdel Youni <abdelyouni@gmail.com>
- * @see     https://github.com/abdelyouni/JS-TikTok-Downloader
- */
+- transition between upload url and upload video page
+- add upload video section
+    - <video> tag and <canvas>
+    - opencv to process video 
+    <input type="file" id="video"/>
+- gather hashtags, title, and text from video 
+- train yolo model with tiktok datasets 
+- present yolo prediction results
 
 favicon.ico
-
-yolo
